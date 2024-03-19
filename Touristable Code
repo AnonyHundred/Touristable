@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Places and Stores</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #ffd700;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+    }
+    .place {
+      margin: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    .place img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .rating {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+    }
+    .rating img {
+      width: 30px;
+      height: 30px;
+      margin: 0 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Happy Places and Stores</h1>
+  </header>
+
+  <div class="place">
+    <h2>Rizal</h2>
+    <img src="rizal.jpg" alt="Rizal">
+    <div class="rating">
+      <img src="happy_face.png" alt="Happy Face">
+      <img src="happy_face.png" alt="Happy Face">
+      <img src="happy_face.png" alt="Happy Face">
+      <img src="happy_face.png" alt="Happy Face">
+      <img src="neutral_face.png" alt="Neutral Face">
+    </div>
+  </div>
+
+  <div class="place">
+    <h2>Sohoton Cove</h2>
+    <img src="sohoton_cove.jpg" alt="Sohoton Cove">
+    <div class="rating">
+      <img src="happy_face.png" alt="Happy Face">
+      <img src="happy_face.png" alt="Happy Face">
+      <img src="happy_face.png" alt="Happy Face">
+      <img src="happy_face.png" alt="Happy Face">
+      <img src="happy_face.png" alt="Happy Face">
+    </div>
+  </div>
+
+  <div class="place">
+    <h2>Navarro</h2>
+    <img src="navarro.jpg" alt="Navarro">
+    <div class="rating">
+      <img src="happy_face.png" alt="Happy Face">
+      <img src="happy_face.png" alt="Happy Face">
+      <img src="happy_face.png" alt="Happy Face">
+      <img src="neutral_face.png" alt="Neutral Face">
+      <img src="sad_face.png" alt="Sad Face">
+    </div>
+  </div>
+
+  <div class="place">
+    <h2>Taruc</h2>
+    <img src="taruc.jpg" alt="Taruc">
+    <div class="rating">
+      <img src="happy_face.png" alt="Happy Face">
+      <img src="happy_face.png" alt="Happy Face">
+      <img src="neutral_face.png" alt="Neutral Face">
+      <img src="sad_face.png" alt="Sad Face">
+      <img src="sad_face.png" alt="Sad Face">
+    </div>
+  </div>
+
+  <div class="place">
+    <h2>Songkoy</h2>
+    <img src="songkoy.jpg" alt="Songkoy">
+    <div class="rating">
+      <img src="happy_face.png" alt="Happy Face">
+      <img src="happy_face.png" alt="Happy Face">
+      <img src="happy_face.png" alt="Happy Face">
+      <img src="happy_face.png" alt="Happy Face">
+      <img src="happy_face.png" alt="Happy Face">
+    </div>
+  </div>
+
+</body>
+</html>
